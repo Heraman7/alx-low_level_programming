@@ -9,11 +9,11 @@ int main(void)
 	char c;
 	char d;
 
-	c = '0';
+	c = 0;
 	d = 'a';
 	while
 		(c < 10) {
-			putchar(c);
+			putchar(c + '0');
 			c++;
 		}
 	while
