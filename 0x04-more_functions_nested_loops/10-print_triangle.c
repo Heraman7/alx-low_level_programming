@@ -2,7 +2,6 @@
 /**
  * print_triangle - prints a triangle, followed by a new line
  * @size: size of the triangle
- * Return: always 0
  */
 
 void print_triangle(int size)
@@ -13,7 +12,7 @@ void print_triangle(int size)
 	{
 		for (hash = 1; hash <= size; hash++)
 		{
-			for (index = size = hash; index > 0; index--)
+			for (index = size - hash; index > 0; index--)
 			{
 				_putchar(' ');
 			}
